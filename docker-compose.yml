@@ -1,0 +1,7 @@
+services:
+  vulnerable-mlflow:
+    build: .
+    container_name: mlflow_sandbox
+    ports:
+      - "5000:5000"
+    command: mlflow models serve -m /app/saved_model --host 0.0.0.0 --port 5000 --no-conda --enable-mlserver

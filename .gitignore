@@ -1,0 +1,8 @@
+# Python bytecode and caches
+__pycache__/
+*.pyc
+
+# Local model artifacts generated during testing
+vulnerable_model.pkl
+saved_model/
+mock_model/
