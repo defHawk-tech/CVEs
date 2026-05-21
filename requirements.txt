@@ -1,3 +1,0 @@
-mlflow==2.20.0
-mlserver==1.6.0
-protobuf==4.25.3
